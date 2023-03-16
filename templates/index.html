@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="static\css\index.css">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap">
+    <title>Chatbot</title>
+    <link rel="icon" type="image/png" href="static\images\INTECH1.png">
+</head>
+<body>
+    <div class="container">
+        <div class="chatbox">
+            <div class="chatbox__support">
+                <div class="chatbox__header">
+                    <div class="chatbox__image--header">
+                        <img src="" alt="image" id="chatbot-image">
+                    </div>
+                    
+                    <div class="chatbox__content--header">
+                        <h4 class="chatbox__heading--header" id="chatbot-name">KMS ChatBot</h4>
+                        <p class="chatbox__description--header" id="greeting">Hi. My name is <span id="chatbot-greeting"></span>. How can I help you?</p>
+                            <div class="chatbot__status">
+                                <span class="chatbot__status__dot"></span>
+                            </div>
+                    </div>
+                      
+            </div>
+
+            <div class="chatbox__messages">
+                
+            </div>
+            <div class="chatbox__footer">
+                
+                <input type="text" placeholder="Write a message...">
+                <button class="send__button" id="Submit_Button">Send</button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button><img src="static/images/INTECH1.png" /></button>
+        </div>
+    </div>
+</div>
+<script>
+    var nameInput = document.querySelector('#name-input');
+    var greeting = document.querySelector('#greeting');
+    var chatbotGreeting = document.querySelector('#chatbot-greeting');
+
+    function updateGreeting() {;
+        var name = '{{name}}';
+        if (name) {
+            greeting.textContent = `Hi ${name}. My name is`;
+        } else {
+            greeting.textContent = `Hi. My name is`;
+        }
+        chatbotGreeting.textContent = selectedName;
+    }
+
+    var names = ['Krishna','Manish','Sarthak'];
+    var selectedName = names[Math.floor(Math.random() * names.length)];
+    chatbotGreeting.innerHTML = selectedName;
+    var chatbotImage = document.getElementById('chatbot-image');  
+
+    var imageSources = ['static/images/blue_bot.png',
+                    'static/images/grey_bot.png',
+                    'static/images/orange_bot.png'];
+var selectedImageSource = imageSources[Math.floor(Math.random() * imageSources.length)];
+chatbotImage.src = selectedImageSource;
+
+var submitButton = document.querySelector('#submit-button');
+  </script>
+<script type="text/javascript" src="static/js/index_script.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="static\css\info.css">
+
+<head>
+    <meta charset="UTF-8">
+    <title>KMS Chatbot</title>
+    <link rel="icon" type="image/png" href="static\images\INTECH1.png">
+</head>
+<body>
+    <div class="container">
+        <div class="chatbox">
+            <div class="chatbox__support">
+                <div class="chatbox__header">
+                    <div class="chatbox__image--header">
+                        <img src="https://img.icons8.com/color/48/000000/circled-user-male-skin-type-5--v1.png" alt="image">
+                    </div>
+                    <div class="chatbox__content--header">
+                        <h4 class="chatbox__heading--header" id="chatbot-name">KMS ChatBot</h4>
+                        <p class="chatbox__description--header" id="greeting">Welcome! How can I assist you today?</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center mb-2"> </div>
+                </div>
+            <form id="user-info-form">
+                <div class="user_info">
+                    <div class="user_info__input">
+                        <input type="text" id="name-input" name="name" required placeholder="Name">
+                        <div class="input-error-message" id="name-error-message"></div>
+                    </div>
+                    <div class="user_info__input">
+                        <input type="tel" id="phone-input" name="phone" required placeholder="Phone" pattern="[0-9]{10}">
+                        <div class="input-error-message" id="phone-error-message"></div>
+                    </div>
+                    <div class="user_info__input">
+                        <input type="email" id="email-input" name="email" required placeholder="Email">
+                        <div class="input-error-message" id="email-error-message"></div>
+                    </div>
+                        <button id="send_otp">Send OTP</button> 
+                    <form id="email-validation" >
+                        <div class="user_info">
+                          <input type="otp" id="otp-input" name="otp" placeholder="Enter OTP">
+                        </div>
+                         
+                        <button id="verify_otp" >Verify OTP</button>
+                     </form>    
+                    <button id="start_chat">Start Chat</button>
+                </div>
+            </form> 
+        </div>
+        <div class="chatbox__button">
+            <button><img src="static/images/INTECH1.png" /></button>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="static/js/user_info_script.js"></script>
+</body>
+</html>

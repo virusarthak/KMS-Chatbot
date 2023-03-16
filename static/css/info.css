@@ -1,0 +1,283 @@
+*{
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+  }
+  body {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 100%;
+  background: #F1F1F1;
+  }
+  
+  
+  *, html {
+  --primaryGradient: linear-gradient(93.12deg, #581B98 0.52%, #9C1DE7 100%);
+  --secondaryGradient: linear-gradient(268.91deg, #581B98 -2.14%, #9C1DE7 99.69%);
+  --primaryBoxShadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+  --secondaryBoxShadow: 0px -10px 15px rgba(0, 0, 0, 0.1);
+  --primary: #581B98;
+  }
+  
+  /* CHATBOX */
+  .chatbox {
+  position: fixed;
+  bottom: 70px;
+  right: 70px;
+  }
+
+  
+  /* CONATINER PADDING  */
+  .chatbox__support {
+  display: flex;
+  flex-direction: column;
+  background: #eee;
+  width: 300px;
+  height: 350px;
+  z-index: -123456;
+  opacity: 0;
+  transition: all .2s ease-in-out;
+  }
+  
+  /* DIRECTION OF SMALL svg*/
+  .chatbox--active {
+  transform: translateY(-40px);
+  z-index: 0;
+  opacity: 5;
+  
+  }
+  
+  /* SVG BUTTON */
+  .chatbox__button {
+  text-align: right;
+  margin-top: 20px;
+
+  }
+  .chatbox__button button {
+      animation-name: rotate;
+      animation-duration: 5s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+    }
+  .chatbox__button button:hover {
+      transform: rotate(360deg);
+      transition: transform 5s;
+    }
+/* SVG Backdrop */
+.chatbox__button button,
+.chatbox__button button:focus,
+.chatbox__button button:visited {
+padding: 0px;
+background: transparent;
+border: none;
+outline: none;
+cursor: pointer;
+
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Form Container */
+#user-info-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 0px;
+}
+
+/* User Info Section */
+.user_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.user_info__input {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.user_info__input label {
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.user_info__input input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.user_info__input input:focus {
+  outline: none;
+  border-color: #1e87f0;
+  box-shadow: 0px 0px 5px rgba(30, 135, 240, 0.3);
+}
+
+.input-error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Send OTP Button and OTP Input Field */
+.send-otp-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#send_otp {
+  padding: 10px;
+  border: none;
+  background-color: #f7941d;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 180px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#send_otp:hover {
+  background-color:#8B8B8C;
+}
+
+
+ #otp-input {
+  appearance: none;
+  border: none;
+  flex-grow: 1;
+  border-radius: 15px;
+  background-color: #F8F8F8;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  margin-top: -35px;
+  margin-bottom: 0px;
+  margin-right: 120px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 150px;
+  height: 30px;
+}
+
+#otp-input:focus {
+  outline: none;
+  border-color: #1e87f0;
+  box-shadow: 0px 0px 5px rgba(30, 135, 240, 0.3);
+}
+  /* Email Validation Section */
+  #email-validation {
+  display: none;
+  margin-top: 20px;
+  border-radius: 20px;
+  width: 100%;
+  }
+  
+  #email-validation .user_info {
+  margin-bottom: 50px;
+  border-radius: 20px;
+  }
+  
+  #email-validation input[type="otp"] {
+  margin-right: 200px;
+  border-radius: 20px;
+  }
+  
+  /* Verify OTP Button */
+  #verify_otp {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #8B8B8C;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 0px;
+  margin-right: 120px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease-in-out;
+  }
+  
+  #verify_otp:hover {
+  background-color: #035b88;
+  }
+  
+  /* Start Chat Button */
+  #start_chat {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  border-radius: 20px;
+  background-color:#035b88 ;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: -35px;
+  margin-left: 180px;
+  transition: background-color 0.3s ease-in-out;
+  }
+  
+  #start_chat:hover {
+  background-color: #f7941d;
+  }
+
+/* HEADER */
+.chatbox__header {
+  background: #035b88;;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: var(--primaryBoxShadow);
+}
+
+
+.chatbox__image--header {
+  margin-right: 10px;
+}
+
+.chatbox__heading--header {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.chatbox__description--header {
+  font-size: .9rem;
+  color: white;
+}
+
