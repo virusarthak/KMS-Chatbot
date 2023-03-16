@@ -1,0 +1,617 @@
+{
+    "intents": [
+      {
+        "tag":"contact" ,
+        "patterns": ["how can i contact you?",
+        "how can i contact intech? ",
+        "contact details",
+        "contact "
+        ],
+        "responses": [" you can contact us: +91 79-6611-8960 (India), +1-607-821-2964 (USA). or mail on sales@intech-systems.com" 
+        ]
+      },
+      {
+        "tag":"headquarter",
+        "patterns": [         
+            "headquater of intech",
+            "headquarter",
+            "headquarter location"
+        ],
+        "responses": [
+            "Our headquarter is at Ahmedabad\n Location: 301 Brooklyn Tower, Near YMCA Club, SG Highway, Makarba, Ahmedabad - 380 051, Gujarat, India"
+        ]
+      },
+      {
+        "tag": "location",
+        "patterns": [
+          "where is location of intech?",
+          "location ",
+          "your location",
+          "office address",
+          "address",
+          "intech address"
+        ],
+        "responses": [
+          "There are four branches of intech systems.\n 1. Ahmedabad /n 2. Vadodra /n 3. Mumbai /n 4. USA/n Which location do you want?"
+        ]
+      },
+       {
+        "tag": "ahmedabad",
+        "patterns": ["ahmedabad location",
+        "ahmedabad",
+        "ahmedabad address",
+        "ahmedabad work place",
+        "can you give me ahmedabad location?",
+        "can you give me ahmedabad address?",
+        "intech ahmedabad location",
+        "intech ahmedabad address",
+        "intech ahmedabad workplace"
+        ],
+        "responses": ["301 Brooklyn Tower, Near YMCA Club, SG Highway, Makarba, Ahmedabad - 380 051, Gujarat, India"
+          
+        ]
+      },
+      {
+        "tag": "vadodara",
+        "patterns": [
+        "vadodara",
+        "vadodara address",
+        "vadodara work place",
+        "intech vadodra location",
+        "intech vadodra workplace",
+        "intech vadodra address"
+        ],
+        "responses": ["Incuspaze:- 3rd floor, 1965, Alembic City, Alembic Rd, Gorwa, Vadodara, Gujarat 390003"
+          
+        ]
+      },
+      {
+        "tag":"mumbai" ,
+        "patterns": ["mumbai location",
+        "mumbai",
+        "mumbai address",
+        "mumbai work place",
+        "can you give me mumbai location?",
+        "can you give me mumbai address?",
+        "intech mumbai location",
+        "intech mumbai address",
+        "intech mumbai workplace"   
+        ],
+        "responses": ["Incuspaze:- 203 Akriti Star Building, MIDC Central Road, Andheri East, Mumbai"
+          
+        ]
+      },
+      {
+        "tag": "usa",
+        "patterns": ["USA location",
+        "USA",
+        "USA address",
+        "USA work place",
+        "can you give me USA location?",
+        "can you give me USA address?",
+        "intech USA location",
+        "intech USA address",
+        "intech USA workplace"
+        ],
+        "responses": ["75 Maiden Lane, Suite 204, New York City, New York - 10038. contact:+1-607-821-2964"
+          
+        ]
+      },
+      {
+        "tag": "sales inquiry",
+        "patterns": ["sales inquiry",
+        "how can i get in touch with sales team ",
+        "sales team contact",
+        "sales contact"
+        ],
+        "responses": [" you can contact our sales team: https://intech-systems.com/contact-us/#get-in-touch"
+          
+        ]
+      },
+      {
+        "tag":"Help Support" ,
+        "patterns": ["where is Help & Support?",
+        "link for customer support",
+        "client login",
+        "support login"
+        ],
+        "responses": [" you can login through https://support.intech-systems.com/login.php"
+          
+        ]
+      },
+      {
+        "tag":"intech" ,
+        "patterns": ["what is intech system",
+        "which kind of work do intech system ",
+        "intech system",
+        "what does intech systems do"
+        ],
+        "responses": ["Intech Systems is a Microsoft Dynamics Partner in India with Gold competency. Intech's core offerings, which are aimed at delivering transformative technology solutions, include - Microsoft Dynamics ERP, Microsoft Dynamics CRM, Microsoft Azure Cloud and Power BI."
+          
+        ]
+      },
+      {
+        "tag": "facebook",
+        "patterns": ["facebook id",
+        "facebook link",
+        "facebook of intech",
+        "what is facebook id of intech",
+        "facebook"  
+        ],
+        "responses": ["facebook: https://www.facebook.com/IntechSystems1/"
+          
+        ]
+      },
+      {
+        "tag": "twitter",
+        "patterns": ["twitter id",
+        "twitter link",
+        "twitter of intech",
+        "what is twitter id of intech",
+        "twitter"
+        ],
+        "responses": ["twitter: https://twitter.com/IntechSystems"
+          
+        ]
+      },
+      {
+        "tag":"linkedin" ,
+        "patterns": ["linkedin link",
+        "linkedin profile",
+        "linkedin of intech",
+        "what is intech linkedin profile",
+        "give link for linkedin",
+        "linkdin"     
+        ],
+        "responses": [ "linkedin: https://www.linkedin.com/company/intech-systems/"
+          
+        ]
+      },
+      {
+        "tag": "youtube" ,
+        "patterns": ["youtube link",
+        "youtube of intech",
+        "youtube channel",
+        "youtube"
+        ],
+        "responses": ["youtube:https://www.youtube.com/channel/UCgXn3Ea8UsiavDGShEK6rRA"
+          
+        ]
+      },
+      {
+        "tag": "business apps",
+        "patterns": ["what is business apps",
+        "business app Portfolio ",
+        "business app solution",
+        "business app"
+        ],
+        "responses": ["Microsoft Business Apps work with the products you already use and make your business solution tailored to your industry. These Apps add new capabilities to your existing business applications – from Dynamics to Power BI. Intech has developed these business apps to help you do more with your existing solution. Find them on Microsoft AppSource. or link:https://intech-systems.com/business-apps/"
+          
+        ]
+      },
+      {
+        "tag": "intech solution",
+        "patterns": ["intech solution",
+        "link for portfolio of intech",
+        "portfolio",
+        "intech portfolio"
+        ],
+        "responses": [" you can see our solutions on https://intech-systems.com/intech-solutions/ "
+          
+        ]
+      },
+      {
+        "tag": "Ecommerce Portal",
+        "patterns": ["Ecommerce Portal",
+        "what is ecommerce portal",
+        "link for ecommerce portal"
+        ],
+        "responses": ["its An end-to-end real-time web store that works on your ERP data. there are three types B2B, B2C and D2C for more details:https://intech-systems.com/intech-solutions/ecommerce/"
+          
+        ]
+      },
+      {
+        "tag": "Features of ecommerce portal",
+        "patterns": ["Why choose Intech's e-commerce solution?",
+        "features of ecommerce portal",
+        "ecommerce features"
+        ],
+        "responses": ["\n-Multi-site, Multi-store Support \n-Integrated tax structure across ERP and e-commerce portal \n-Payment processing with major payment gateways \n-Cloud hosting on Azure, IBM Cloud, or AWS \n-Flexible and customized pricing for different customers \n-Real-time business, product, and client data \n-Integration with SMS and WhatsApp"
+          
+        ]
+      },
+      {
+        "tag": "B2B e-commerce",
+        "patterns": ["what is B2B",
+        "what is Business to business",
+        "B2B e-commerce",
+        "feactures of b2b",
+        "benefits of b2b"
+        ],
+        "responses": ["Simplify the B2B buying process with our all-inclusive e-commerce platform. Reduce technical and operational costs \n-Offer 24/7 order capabilities \n-Get real-time inventory data-Simplify order and product information\n-Manage multiple customer roles and authorization levels"
+          
+        ]
+      },
+      {
+        "tag": "B2C e-commerce",
+        "patterns": ["what is B2C",
+        "what is B to c",
+        "what is business to customer",
+        "feactures of b2b",
+        "benefits of b2c",
+        "B2C e-commerce"  
+        ],
+        "responses": ["Offer personalized shopping experiences with our B2C e-commerce solution \nDeliver an omnichannel shopping experience \nTrack shipments and payments \nShare order details with customers \nManage and create targeted marketing content and campaigns \nOffer strong SEO capabilities"
+          
+        ]
+      },
+      {
+        "tag":"D2C e-commerce" ,
+        "patterns": ["feactures of d2c",
+        "benefits of d2c",
+        "D2C benefits ",
+        "D2C e-commerce"
+        ],
+        "responses": ["Ensure better customer engagement with our D2C e-commerce platform \nGet direct access to your customers data \nGet more control over your brand \nReduce operational costs \nAccelerate sales cycle and revenue growth \nOffer comprehensive and customized pricing \nOffer benefits of B2B and B2C e-commerce in one"
+          
+        ]
+      },
+      {
+        "tag": "Key functionalities of Customer-Vendor Portal" ,
+        "patterns": ["what is Key functionalities of Customer-Vendor Portal",
+        "Key functionalities of Customer-Vendor Portal"
+          
+        ],
+        "responses": ["Get summarized account information \nUpload and download order\nrelated documents \nCreate dashboards and reports \nIntegrate with Dynamics 365 Business Central and NAV \nSend important notifications and reminders \nGet historical customer order details"
+          
+        ]
+      },
+      {
+        "tag": "Customer Vendor Portal",
+        "patterns": ["Customer Vendor Portal",
+        "what is Customer Vendor Portal"
+        ],
+        "responses": ["It's A collaborative platform for your customers and vendors. for more details:https://intech-systems.com/intech-solutions/customer-vendor-portal/"
+          
+        ]
+      },
+      {
+        "tag":"Sales & Service for Manufacturing" ,
+        "patterns": ["what is sales and service  for manufacturing?",
+        "Sales & Service for Manufacturing",
+        "Sales and  services",
+        "Sales & Services"
+        ],
+        "responses": ["It's An enhanced CRM app for manufacturing industry. Manufacturing companies tend to focus mainly on production, distribution, and supply chain. So, a CRM software for manufacturing industry often gets overlooked. for more information https://intech-systems.com/intech-solutions/sales-service-for-manufacturing/"
+          
+        ]
+      },
+      {
+        "tag": "DynaEquip",
+        "patterns": ["what is DynaEquip",
+        "dynaeuip"
+          
+        ],
+        "responses": ["it's A tailored business solution for Equipment Industry . https://intech-systems.com/intech-solutions/dynaequip/"
+          
+        ]
+      },
+      {
+        "tag":"Product Configurator" ,
+        "patterns": ["what is Product Configurator"
+          
+        ],
+        "responses": [" it's Customizing a product to meet the needs of a customer based on Pre-devised set of options. for more details https://intech-systems.com/intech-solutions/product-configurator/"
+          
+        ]
+      },
+      {
+        "tag": "EXIM",
+        "patterns": ["EXIM",
+        "what is exim?",
+        "tell me about exim"
+          
+        ],
+        "responses": ["Export Import (EXIM) fr Service Industry covers functionality related to managing, tracking, and complying with the EXIM functions as per Service Export from India Scheme (SEIS) under by the Government of India. for more information https://intech-systems.com/intech-solutions/exim/"
+          
+        ]
+      },
+      {
+        "tag":"Weigh Scale Integration" ,
+        "patterns": ["Weigh Scale Integration",
+        "tell me about Weigh Scale Integration",
+        "whai is Weigh Scale Integration"
+          
+        ],
+        "responses": ["Maintain the record of the weight of the material with accuracy. for more information https://intech-systems.com/intech-solutions/weigh-scale-integration/"
+          
+        ]
+      },
+      {
+        "tag":"Advanced Quality Module",
+        "patterns": ["Advanced Quality Module",
+        "tell me about Advanced Quality Module",
+        "what is Advanced Quality Module"
+          
+        ],
+        "responses": ["Manage advanced quality controls across your entire organization. Businesses need to perform quality controls on their products and define flexible rules to ensure quality checks across different processes and stages. This allows them to take corrective actions and manage non-conforming materials or quality standards. \n https://intech-systems.com/intech-solutions/advanced-quality-module/"
+          
+        ]
+      },
+      {
+        "tag": "Complaint Tracker",
+        "patterns": ["Complaint Tracker",
+        "what is Complaint Tracker",
+        "tell me about Complaint Tracker"
+          
+        ],
+        "responses": ["Track and automate your Customer's Complaint Requests. for more information https://intech-systems.com/intech-solutions/complaint-tracker/"
+          
+        ]
+      },
+      {
+        "tag":"careers" ,
+        "patterns": ["careers",
+        "intech career",
+        "career at intech"
+          
+        ],
+        "responses": ["career \n1.Project Lead - Business Central (Functional) \n 2.SharePoint Developer \n 3.Dynamics 365 Project Operations Functional Consultant\n 4.DotNet Lead\n 5.D365 Finance Consultant\n 6.Microsoft Azure Security\n 7.Microsoft Azure IaaS Cloud Operations Engineer\n 8.Azure Technical Lead\n 9.Azure Data Analytics\n 10.Project Lead - CRM\n For more info contact to our recruitment team"
+          
+        ]
+      },
+      {
+        "tag": "Case Studies",
+        "patterns": ["Case Studies"
+          
+        ],
+        "responses": ["there are many Case Studies of technology trends, insights, success stories and other helpful resources.\n https://intech-systems.com/resources/case-studies/"
+          
+        ]
+      },
+      {
+        "tag": "Brochures",
+        "patterns": ["Brochures",
+        "Brochures link"
+          
+        ],
+        "responses": ["for Brochures:https://intech-systems.com/resources/brochures/"
+          
+        ]
+      },
+      {
+        "tag": "Blogs",
+        "patterns": ["Blogs",
+        "link for Blogs",
+        "intech blogs",
+        "share your Blogs"
+          
+        ],
+        "responses": ["for our blogs you can visit: https://intech-systems.com/blog/"
+          
+        ]
+      },
+      {
+        "tag": "Power Automate",
+        "patterns": ["Power Automate"
+        ,"what is Power Automate"
+          
+        ],
+        "responses": ["Power Automate is a service that helps you create automated workflows between your favorite apps and services to synchronize files, get notifications, collect data, and more."
+          
+        ]
+      },
+      {
+        "tag":"Power Virtual Agents" ,
+        "patterns": ["what is Power Virtual Agents",
+        "Power Virtual Agents"
+          
+        ],
+        "responses": ["Power Virtual Agents is a no-code, guided graphical interface solution that empowers every member of your team to create rich, conversational chatbots that easily integrate with the Teams platform."
+          
+        ]
+      },
+      {
+        "tag": "Azure Active Directory",
+        "patterns": ["Azure Active Directory",
+        "what is Azure Active Directory"
+          
+        ],
+        "responses": ["Azure Active Directory is a multi-tenant, cloud-based identity and access management (IAM) solution that helps employees sign up to and access multiple services from anywhere with a single set of login credentials."
+          
+        ]
+      },
+      {
+        "tag":"Azure Backup" ,
+        "patterns": [
+          "Azure Backup",
+          "information about Azure Backup"
+        ],
+        "responses": ["Backup and restore a wide range of enterprise workloads including VMs, Azure file shares, SQL and SAP HANA and Oracle databases, and Azure Database for PostgreSQL in locally redundant (LRS), geo-redundant(GRS), and zone-redundant storage (ZRS) with the centralized management interface."
+        
+          
+        ]
+      },
+      {
+        "tag":"Azure Site Recovery" ,
+        "patterns": [ "Azure Site Recovery",
+        "what is Azure Site Recovery"
+          
+        ],
+        "responses": ["Deploy replication, failover, and recovery processes to help keep your applications running during planned and unplanned outages and minimize downtime through Site Recovery, a native disaster recovery as a service (DRaaS) and reduce the cost of deploying, monitoring, patching, and maintaining on-premises DR infrastructure."
+          
+        ]
+      },
+      {
+        "tag": "Cloud migration",
+        "patterns": [
+          "Cloud migration",
+          "what is Cloud migration"
+        ],
+        "responses": ["Cloud migration is the process of moving a company's digital assets, services, databases, IT resources, and applications either partially, or wholly, into the cloud. "
+          
+        ]
+      },
+      {
+        "tag": "SAP on Azure",
+        "patterns": ["SAP on Azure",
+        "what is SAP on Azure"
+          
+        ],
+        "responses": ["SAP on Azure solutions help you optimise your enterprise resource planning (ERP) in the cloud using the security features, reliability and scalable SAP-certified infrastructure of Azure."
+          
+        ]
+      },
+      {
+        "tag": "instagram" ,
+        "patterns": ["instagram id",
+        "instagram of intech",
+        "instagram",
+        "intech instagram"
+          
+        ],
+        "responses": ["instagram:\n https://instagram.com/intech_systems?igshid=YmMyMTA2M2Y="
+          
+        ]
+      },
+      {
+        "tag": "Create Business Central Free Trial Account",
+        "patterns": ["business central free trial account",
+        "any Business Central Free Trial Account",
+        "are you provide any Business Central Free Trial Account",
+        "where is Business Central Free Trial Account link",
+        "BC free trial account"
+        ],
+        "responses": ["for Create Business Central Free Trial Account click on this link:\n https://signup.microsoft.com/create-account/signup?sku=6a4a1628-9b9a-424d-bed5-4118f0ede3fd&ru=https:%2F%2Fbusinesscentral.dynamics.com%3FredirectedFromSignup%3D1&products=6a4a1628-9b9a-424d-bed5-4118f0ede3fd&ali=1"
+          
+        ]
+      },
+      {
+        "tag": "Create Microsoft Dynamics 365 Free Trial Account",
+        "patterns": ["Microsoft Dynamics 365 free trial account",
+        "any Microsoft Dynamics 365 Free Trial Account",
+        "are you provide any Microsoft Dynamics 365 Free Trial Account",
+        "where is Microsoft Dynamics 365 Free Trial Account link"
+          
+        ],
+        "responses": ["for Create Microsoft Dynamics 365 Free Trial Account click on this link:\n https://dynamics.microsoft.com/en-us/dynamics-365-free-trial/"
+          
+        ]
+      },
+      {
+        "tag":"recruitment contact",
+        "patterns":[  
+          "Reqruitment contact",
+          "contact details of recruitment team",
+          "reqruitment team contact"
+        ],
+        "responses":[
+          "Recruitment team contact:/n recruitment@intech-systems.com"
+        ]
+      },
+      {
+        "tag":"Employees",
+        "patterns":[
+            "employee size",
+            "no of employees in the company",
+            "no of employees"
+        ],
+        "responses":[
+            "Currently Intech systems have 350+ employees.",
+            "350+ employees"
+        ]
+      },
+      {
+        "tag": "powerbi guide",
+        "patterns": ["power bi guide"
+          
+        ],
+        "responses": ["power bi guide: https://intech-systems.com/wp-content/uploads/2021/05/PowerBI-Guide.pdf"
+        ]
+      },
+      {
+        "tag": "news",
+        "patterns": ["news section",
+        "news of intech",
+        "any new news?"
+          
+        ],
+        "responses": ["for news visit: https://intech-systems.com/resources/news-events/"
+        ]
+      },
+      {
+        "tag": "newsletters",
+        "patterns": ["newslwtters section",
+        "newsletter","link for news letter"
+          
+        ],
+        "responses": ["you can visit newsletters: https://intech-systems.com/resources/newsletters/"
+        ]
+      },
+      {
+        "tag": "event",
+        "patterns": ["event",
+        "any upcoming event",
+        "tell me about intech events",
+        "any new event there"
+          
+        ],
+        "responses": ["for upcoming event visit: https://intech-systems.com/upcoming-events/"
+        ]
+      },
+      {
+        "tag": "awards and recognitions",
+        "patterns": [" awards and recognitions",
+        "award"
+          
+        ],
+        "responses": [" we proud to be recognized by some of the most valuable and influential publications and organizations around the world. for more: https://intech-systems.com/awards-and-recognitions/"
+        ]
+      },
+      {
+        "tag": "Chairman",
+        "patterns": ["who is Chairman of intech?",
+        "who is Ashok Mehta",
+        "who is founder of intech?",
+        "Chairman of Intech Systems",
+        "Founder of Intech Systems",
+        "Intech systems Founder",
+        "Intech systems chairman",
+        "Chairman",
+        "Founder"
+
+        ],
+        "responses": ["Ashok Mehta is the Chairman and Founder of Intech Systems, a Microsoft Dynamics business solutions partner based out of Ahmedabad, India, with offices in the USA. As one of the top Microsoft Dynamics partners in India, Intech Systems is trusted by businesses worldwide for their digital transformation journey,"
+
+        ]
+      },
+      {
+        "tag": "ceo",
+        "patterns": ["who is ceo of intech?",
+        "who is Anuja parikh",
+        "who is ceo of intech?",
+        "ceo of Intech Systems",
+        "CEO",
+        "Intech CEO"
+        ],
+        "responses": ["the CEO of Intech Systems is Anuja Parikh. She has over 20 years of experience in various avenues of business management including strategy building, business solution consulting, global marketing, ecommerce, and business development."
+            
+        ]
+      },
+      {
+        "tag": "MD",
+        "patterns": ["who is md of intech?",
+        "who is deval parikh",
+        "who is md of intech?",
+        "md of Intech Systems",
+        "Managing Director",
+        "Intech systems MD",
+        "MD"
+          
+        ],
+        "responses": ["Deval parikh is the Managing Director of Intech Systems and focuses on giving overall leadership on growth strategies for the firm."
+            
+        ]
+      }
+    ]
+}
